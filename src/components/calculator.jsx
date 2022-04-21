@@ -9,24 +9,8 @@ const Calculator = () => {
     operation: null,
   });
 
-  const buttons1 = [
-    'AC',
-    '+/-',
-    '%',
-    '÷',
-    '7',
-    '8',
-    '9',
-    'x',
-    '4',
-    '5',
-    '6',
-    '-',
-    '1',
-    '2',
-    '3',
-    '+',
-  ];
+  const buttons1 = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+'];
+  const buttons2 = ['0', '.', '='];
 
   const onClickEvent = (event) => {
     const { value } = event.target;
@@ -53,35 +37,23 @@ const Calculator = () => {
           {buttons1.map((button) => {
             let boton;
             if (button.match(/^['÷', 'x', '-', '+', '\-']$/)) {
-              boton = (
-                <button
-                  className="operator"
-                  value={button}
-                  type="button"
-                  onClick={onClickEvent}
-                >
-                  {button}
-                </button>
-              );
+              boton = (<button className="operator" value={button} type="button" onClick={onClickEvent}>{button}</button>);
             } else {
-              boton = (
-                <button
-                  className="number"
-                  value={button}
-                  type="button"
-                  onClick={onClickEvent}
-                >
-                  {button}
-                </button>
-              );
+              boton = (<button className="number" value={button} type="button" onClick={onClickEvent}>{button}</button>);
             }
             return boton;
           })}
         </div>
         <div className="numbers-last">
-          <button onClick={onClickEvent} value="0" className="number" type="button">0</button>
-          <button onClick={onClickEvent} value="." className="number" type="button">.</button>
-          <button onClick={onClickEvent} value="=" className="operator" type="button">=</button>
+          {buttons2.map((button) => {
+            let boton;
+            if (button.match(/^['=']$/)) {
+              boton = (<button className="operator" value={button} type="button" onClick={onClickEvent}>{button}</button>);
+            } else {
+              boton = (<button className="number" value={button} type="button" onClick={onClickEvent}>{button}</button>);
+            }
+            return boton;
+          })}
         </div>
       </div>
     </div>
