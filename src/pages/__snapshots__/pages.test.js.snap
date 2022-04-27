@@ -1,20 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pages renders correctly renders correctly 1`] = `
-<div
-  className="Quotes"
->
-  <div
-    className="Quotes-title"
-  >
-    <h2>
-      “A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories.“- Stefan Banach.
-    </h2>
-  </div>
-</div>
-`;
-
-exports[`Pages renders correctly renders correctly 2`] = `
+exports[`Pages renders correctly Calculator page renders correctly 1`] = `
 <div
   className="CalculatorPage"
 >
@@ -209,7 +195,7 @@ exports[`Pages renders correctly renders correctly 2`] = `
 </div>
 `;
 
-exports[`Pages renders correctly renders correctly 3`] = `
+exports[`Pages renders correctly Home page renders correctly 1`] = `
 <div
   className="Home"
 >
@@ -236,7 +222,7 @@ exports[`Pages renders correctly renders correctly 3`] = `
 </div>
 `;
 
-exports[`Pages renders correctly renders correctly 4`] = `
+exports[`Pages renders correctly Navbar renders correctly 1`] = `
 <div
   className="navbar"
 >
@@ -268,6 +254,20 @@ exports[`Pages renders correctly renders correctly 4`] = `
     >
       Quotes
     </a>
+  </div>
+</div>
+`;
+
+exports[`Pages renders correctly Quotes page renders correctly 1`] = `
+<div
+  className="Quotes"
+>
+  <div
+    className="Quotes-title"
+  >
+    <h2>
+      “A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories.“- Stefan Banach.
+    </h2>
   </div>
 </div>
 `;
