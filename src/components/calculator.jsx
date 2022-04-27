@@ -37,9 +37,9 @@ const Calculator = () => {
           {buttons1.map((button) => {
             let boton;
             if (button.match(/^['÷', 'x', '-', '+', '\-']$/)) {
-              boton = (<button className="operator" value={button} type="button" onClick={onClickEvent}>{button}</button>);
+              boton = (<button key={button} className="operator" value={button} type="button" onClick={onClickEvent}>{button}</button>);
             } else {
-              boton = (<button className="number" value={button} type="button" onClick={onClickEvent}>{button}</button>);
+              boton = (<button key={button} className="number" value={button} type="button" onClick={onClickEvent}>{button}</button>);
             }
             return boton;
           })}
@@ -48,9 +48,9 @@ const Calculator = () => {
           {buttons2.map((button) => {
             let boton;
             if (button.match(/^['=']$/)) {
-              boton = (<button className="operator" value={button} type="button" onClick={onClickEvent}>{button}</button>);
+              boton = (<button key={button} className="operator" value={button} type="button" onClick={onClickEvent}>{button}</button>);
             } else {
-              boton = (<button className="number" value={button} type="button" onClick={onClickEvent}>{button}</button>);
+              boton = (<button key={button} className="number" value={button} type="button" onClick={onClickEvent}>{button}</button>);
             }
             return boton;
           })}

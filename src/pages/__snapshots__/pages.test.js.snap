@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages renders correctly Calculator page renders correctly 1`] = `
+<div
+  className="CalculatorPage"
+>
+  <div
+    className="CalculatorPage-title"
+  >
+    <h2>
+      Let\`s Do Math
+    </h2>
+  </div>
+  <div
+    className="CalculatorPage-calculator"
+  >
+    <div
+      className="calculator"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="output"
+        >
+          <h2
+            className="display"
+          >
+            0
+          </h2>
+        </div>
+        <div
+          className="numbers"
+        >
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="AC"
+          >
+            AC
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="+/-"
+          >
+            +/-
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="%"
+          >
+            %
+          </button>
+          <button
+            className="operator"
+            onClick={[Function]}
+            type="button"
+            value="÷"
+          >
+            ÷
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="7"
+          >
+            7
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="8"
+          >
+            8
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="9"
+          >
+            9
+          </button>
+          <button
+            className="operator"
+            onClick={[Function]}
+            type="button"
+            value="x"
+          >
+            x
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="4"
+          >
+            4
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="5"
+          >
+            5
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="6"
+          >
+            6
+          </button>
+          <button
+            className="operator"
+            onClick={[Function]}
+            type="button"
+            value="-"
+          >
+            -
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="1"
+          >
+            1
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="2"
+          >
+            2
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="3"
+          >
+            3
+          </button>
+          <button
+            className="operator"
+            onClick={[Function]}
+            type="button"
+            value="+"
+          >
+            +
+          </button>
+        </div>
+        <div
+          className="numbers-last"
+        >
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="0"
+          >
+            0
+          </button>
+          <button
+            className="number"
+            onClick={[Function]}
+            type="button"
+            value="."
+          >
+            .
+          </button>
+          <button
+            className="operator"
+            onClick={[Function]}
+            type="button"
+            value="="
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pages renders correctly Home page renders correctly 1`] = `
+<div
+  className="Home"
+>
+  <div
+    className="Home-title"
+  >
+    <h2>
+      Welcome to the Math Magicians Page
+    </h2>
+  </div>
+  <div
+    className="Home-p"
+  >
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusantium repellat sunt quod reiciendis alias libero molestiae iusto voluptas deleniti quae dolore dolor, voluptate autem? Qui dolorum ab maxime adipisci.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusantium repellat sunt quod reiciendis alias libero molestiae iusto voluptas deleniti quae dolore dolor, voluptate autem? Qui dolorum ab maxime adipisci.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum accusantium repellat sunt quod reiciendis alias libero molestiae iusto voluptas deleniti quae dolore dolor, voluptate autem? Qui dolorum ab maxime adipisci.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Pages renders correctly Navbar renders correctly 1`] = `
+<div
+  className="navbar"
+>
+  <div
+    className="navbar-title"
+  >
+    <h1>
+      Math Magicians
+    </h1>
+  </div>
+  <div
+    className="navbar-links"
+  >
+    <a
+      className="links"
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      className="links"
+      href="/calculator"
+    >
+      Calculator
+    </a>
+    <a
+      className="links"
+      href="/quotes"
+    >
+      Quotes
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Pages renders correctly Quotes page renders correctly 1`] = `
+<div
+  className="Quotes"
+>
+  <div
+    className="Quotes-title"
+  >
+    <h2>
+      “A mathematician is a person who can find analogies between theorems; a better mathematician is one who can see analogies between proofs and the best mathematician can notice analogies between theories.“- Stefan Banach.
+    </h2>
+  </div>
+</div>
+`;
