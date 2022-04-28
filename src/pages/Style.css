@@ -1,0 +1,44 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(182, 182, 182);
+}
+
+.navbar-title {
+  margin: 0 50px;
+}
+
+.links {
+  margin: 0 30px;
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 50px;
+}
+
+.CalculatorPage {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 50px;
+}
+
+.Quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 70px;
+}
+
+.Quotes.title {
+  height: 90%;
+}
