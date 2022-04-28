@@ -8,6 +8,12 @@
 - Gitflow
 - JSX
 
+## Live Demo
+
+- Watch the live demo with [Netlify](https://math-magicians-jsotomayor.netlify.app/)
+
+- Watch the live demo with [Heroku](https://math-magicians-jsotomayor.herokuapp.com/)
+
 ## Run it
 
 Use the following steps to run this Project locally:
